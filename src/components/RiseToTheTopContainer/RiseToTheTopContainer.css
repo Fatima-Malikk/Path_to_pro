@@ -1,0 +1,171 @@
+.fourth-container {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #000000, #04041f, #090911),
+    linear-gradient(to bottom, #000000, #06061b, #000000);
+  position: relative;
+  /* top: 350%; Position it below the app-container */
+  /* left: 0; */
+}
+
+.fourth-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.container {
+  position: relative;
+  height: 1100px;
+  z-index: 0;
+  top: -70px;
+}
+
+.blueRectangle {
+  width: 163px;
+  height: 30px;
+  border-radius: 60px;
+  opacity: 0.2;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  background: #ffffff;
+}
+
+.blueRectangleText {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+  margin-left: 30px;
+}
+
+.headingContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  flex: 1;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.imageContainer {
+  position: absolute;
+  top: 10vh;
+  right: 21vw;
+  z-index: 2;
+  overflow: overlay;
+
+}
+
+.image-riseToTheTop {
+  width: 16vw;
+  position: relative;
+  z-index: 3;
+
+}
+
+.typographyContainer {
+  width: 638px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.typography {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.rowContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.rowTypography {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-right: 40px;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.buttonStyle {
+  width: 220px !important;
+  height: 55px !important;
+  border-radius: 60px !important;
+  background: linear-gradient(180deg, #ffffff 0%, #acccff 100%) !important;
+  color: black !important;
+}
+
+.arrowIcon {
+  width: 25px;
+  height: 30px;
+  padding: 2px;
+  color: #3583fe;
+  transform: rotate(-45deg);
+}
+
+.ptpSeasonText {
+  font-family: "Neo Robotix" !important;
+  font-size: 32px !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  line-height: 35px !important;
+  letter-spacing: 0.02em !important;
+  text-align: left !important;
+  color: #ffffff !important;
+  margin-right: 40px !important;
+}
+
+.lastUpdateText {
+  font-family: "Poppins" !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+  color: #ffffff !important;
+  margin-right: 40px !important;
+}
+
+@media screen and (max-width: 1550px) {
+  .imageContainer {
+    top: -90px;
+    right: 12vw;
+  }
+  
+  .image-riseToTheTop {
+    width: 22vw;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .imageContainer {
+    top: -190px;
+    right: 3vw;
+  }
+  .image-riseToTheTop {
+    width: 26vw;
+  }
+}

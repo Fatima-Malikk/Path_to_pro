@@ -1,0 +1,30 @@
+.css-19r6kue-MuiContainer-root{
+  max-width: unset !important;
+}
+
+.css-1panqje-MuiButtonBase-root-MuiButton-root{
+  padding: 12px 40px;
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+.menu-option {
+    position: relative;
+  }
+  
+  .menu-option::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Provide the desired height for the line */
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-option:hover::after {
+    background-color: blue;
+  }
+  
+  

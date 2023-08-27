@@ -1,0 +1,165 @@
+.app-container-experience {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+  /* height: 130vh; */
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  background-image: url("../../assets/HomeBackground.webp"),
+    linear-gradient(to bottom, #ffffff00, #ffffff00, #000000a8, #000000);
+  background-blend-mode: soft-light; /* Adjust the blending mode as per your preference */
+  background-size: cover;
+  background-position: center center; /* Set the background position to center */
+}
+
+.experience-text {
+  /* position: absolute; */
+  margin: 0 auto;
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11vw;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.065em;
+  color: #ffffff;
+  margin: 5vw auto 0 auto;
+}
+
+.thrill-text {
+  margin: 0 auto 0 0;
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11vw;
+  line-height: 173px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  /* Gradient */
+  color: #3583fe;
+  position: relative;
+  right: 110px;
+}
+
+.the-thrill-container-outer {
+  height: 1229px;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 42px;
+}
+.the-thrill-container-inner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  
+}
+
+.the-text {
+  position: relative;
+  left: 259px;
+  z-index: 2;
+  margin: 0 0 0 auto;
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11vw;
+  line-height: 173px;
+  /* identical to box height */
+  /* Gradient */
+  color: #3583fe;
+}
+
+.experience-extraStuff-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  /* bottom: 794px; */
+  width: 73%;
+  margin: 0 auto;
+}
+.experience-ofVictory-text{
+  margin-top: 7vw;
+}
+.knifeImage {
+  width: 21vw;
+  position: relative;
+  right: 73px;
+  z-index: 2;
+}
+
+.victory-text {
+  margin: 4vw auto 0 auto;
+  /* position: absolute; */
+  font-size: 3vw;
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  
+  letter-spacing: 0.34em;
+  color: #ffffff;
+  backdrop-filter: blur(2px);
+}
+
+.text {
+  /* position: absolute; */
+  width: 419px;
+  left: 850px;
+  top: 420px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  color: #ffffff;
+}
+
+.animated-image {
+  animation: slide 4s infinite;
+  width: 37vw;
+  position: relative;
+  bottom: 80px;
+  z-index: 1;
+}
+
+@font-face {
+  font-family: "Neo Robotix";
+  src: url("../../fonts/Neo-Robotix-Italic.ttf") format("truetype"),
+    url("../../fonts/Neo-Robotix-Italic.ttf") format("truetype");
+  /* Add additional formats if necessary */
+  /* Specify the correct paths to your font files */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(60px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.button-GetStarted {
+  width: 419px;
+  height: 42px;
+}
+
+@media screen and (max-width: 1300px) {
+  .the-thrill-container-inner {
+    gap: 80px;
+  }
+  .experience-ofVictory-text{
+    position: relative;
+    left: 15vw;
+  }
+}

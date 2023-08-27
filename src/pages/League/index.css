@@ -1,0 +1,259 @@
+.league-main *{
+  overflow-x: hidden;
+}
+.league-app-container {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/gasguybg.webp");
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    height: 100vh;
+    background-size: contain;
+  }
+  .league-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -40vh;
+    font-family: "Neo Robotix";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #ffffff;
+    white-space: nowrap;
+    align-items: center;
+  }
+  @media screen and (max-width: 999px) {
+    .league-main {
+      margin-top: -50vh;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .result_card{
+      width: 25% !important;
+    }
+  }
+
+  .outline-text-league {
+    overflow: hidden;
+    width: 100%;
+    font-family: "Neo Robotix";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 33px;
+}
+.no-outline-text-league {
+  font-size: 65px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.065em;
+  white-space: nowrap;
+  color: #3583FE !important;
+  transform: translateY(-80%);
+}
+
+.header-text {
+  padding-top: 15vh;
+  z-index: 1; 
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: 0.065em;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.blueText {
+  color: #3583FE !important;
+  font-size: 36px !important;
+  font-weight: bold !important;
+  margin-top: 10px !important;
+  font-family: "Poppins" !important;
+  margin: 10px 0px 0px!important;
+}
+  .league-footer-container {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/ConnectedBackground.webp");
+    background-blend-mode: soft-light; /* Adjust the blending mode as per your preference */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 400vh; /* Position it below the app-container */
+    left: 0;
+  }
+.ninth-container {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/ConnectedBackground.webp");
+    background-blend-mode: soft-light; /* Adjust the blending mode as per your preference */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 150%; /* Position it below the app-container */
+    left: 0;
+  }
+  
+  
+  .ninth-outline-text {
+    position: absolute;
+    width: 907px;
+    height: 153px;
+    left: calc(50% - 907px / 2 - 360px);
+    font-family: "Neo Robotix";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  }
+  
+  .ninth-no-outline-text {
+    position: absolute;
+    width: 500px;
+    height: 153px;
+    left: calc(50% - 907px / 2 - 150px);
+    font-family: "Neo Robotix";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    top: 16px;
+    white-space: nowrap;
+    color: white;
+  }
+
+  
+  .league-fullBG-container{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/src/assets/TeamBackground1.webp),    linear-gradient(to bottom, #03032402, #030324fb, #030316);
+    background-blend-mode: soft-light; /* Adjust the blending mode as per your preference */  
+    background-position: center;
+    background-repeat: repeat;
+  }
+  .league-gradient-container {
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      to bottom,
+      #000b1ccf,
+      #000b1c,
+      #000b1c,
+      #000b1c
+    );
+    position: absolute;
+    top: 0; /* Position it below the app-container */
+    left: 0;
+  }
+  .league-middle-gradient-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #01010a11, #020213cb, #02021317);
+    position: absolute;
+    left: 0;
+  }
+
+  #recent-matches{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+  }  
+  .result_card {
+    padding: 16px;
+    width: 23%;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-size: cover;
+    background-position: center center;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 15%, 100% 100%, 5% 100%, 0% 85%);
+  }
+  .viewmatchbtn{
+    padding: 0;
+    background: none;
+    color: black;
+    overflow: hidden;
+    border: none;
+  }
+  .score_container{
+      display: flex;
+      text-align: center;
+      justify-content: space-around;
+  }
+  .verses {
+    color: rgb(53, 131, 254);
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .verses_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .score_number {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 10px 0px;
+    background-color: rgb(240, 240, 240);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .blue-btn{
+    padding: 12px 3%;
+    display: flex;
+    margin: 15vh 0vh;
+    background-color: #3583FE;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px 0px #2372EC99;
+    width: 18%;
+    font-size: 20px;
+    justify-content: space-around;
+    z-index: 1;
+  }
+  .blue-btn > svg{
+    color: white;
+  }

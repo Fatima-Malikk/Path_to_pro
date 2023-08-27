@@ -1,0 +1,110 @@
+.teams-app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/LoginBG.svg");
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    left: 0px;
+    top: 0;
+    
+  }
+
+  .teams-footer-container {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/ConnectedBackground.webp");
+    background-blend-mode: soft-light; /* Adjust the blending mode as per your preference */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 400vh; /* Position it below the app-container */
+    left: 0;
+  }
+
+  
+  
+  .ninth-outline-text {
+    position: absolute;
+    width: 907px;
+    height: 153px;
+    left: calc(50% - 907px / 2 - 360px);
+    font-family: "Neo Robotix";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  }
+  
+  .ninth-no-outline-text {
+    position: absolute;
+    width: 500px;
+    height: 153px;
+    left: calc(50% - 907px / 2 - 150px);
+    font-family: "Neo Robotix";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    top: 16px;
+    white-space: nowrap;
+    color: white;
+  }
+
+  
+.teams-fullBG-container {
+    width: 100vw;
+    height: 410vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#050527c7 ;
+    background-blend-mode: soft-light; /* Adjust the blending mode as per your preference */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 80vh; /* Position it below the app-container */
+    left: 0;
+  }
+  
+  .teams-gradient-container {
+    width: 100%;
+    height: 400vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      to bottom,
+      #01010aab,
+      #020213d5,
+
+      #020213c4,
+      #020213c4
+    );
+    position: absolute;
+    top: 0; /* Position it below the app-container */
+    left: 0;
+  }
+  
+  .teams-middle-gradient-container {
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #01010a11, #020213cb, #02021317);
+    position: absolute;
+    top: 0; /* Position it below the app-container */
+    left: 0;
+  }

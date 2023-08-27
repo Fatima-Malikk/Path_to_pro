@@ -1,0 +1,294 @@
+
+.fifth-container {
+  position: relative;
+  width: 100%;
+  /* height: 210vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/TeamBackground2.webp"),
+    linear-gradient(to bottom, #020205, #020205f3, #020205ec, #040405);
+  background-blend-mode: soft-light; /* Adjust the blending mode as per your preference */
+  background-size: cover;
+  background-position: center;
+  /* top: 500%; Position it below the app-container */
+  /* left: 0; */
+}
+
+.fifth-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.sixth-container {
+  width: 100%;
+  /* height: 150vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/MatchScheduleBackground.webp"),
+  linear-gradient(to bottom, #19191d, #09092ca2, #09092ca2, #040405);
+  background-blend-mode: soft-light; /* Adjust the blending mode as per your preference */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 705%; /* Position it below the app-container */
+  left: 0;
+}
+
+.sixth-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.seventh-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #040407, #04041f, #000000);
+  position: relative;
+  /* top: 850%; Position it below the app-container */
+  /* left: 0; */
+  overflow: hidden;
+}
+
+.seventh-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+.eigth-container {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+
+  background-image: url("../../assets/TeamBackground1.webp"),
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 8, 0.8)),
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
+  background-blend-mode: soft-light; /* Adjust the blending mode as per your preference */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  /* top: 980%; Position it below the app-container
+  left: 0; */
+}
+
+  .eigth-inner-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+.eigth-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.landing-ninth-container {
+  width: 100%;
+  /* height: 95vh; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url(/src/assets/ConnectedBackground.webp);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.background-lines{
+  position: absolute;
+  width: 100%;
+  height: -webkit-fill-available;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.image-container {
+  position: absolute;
+    bottom: 99px;
+    right: 0px;
+    /* height: 250px; */
+    width: 22vw;
+}
+.image-container-StayConnected {
+  position: absolute;
+    bottom: 99px;
+    right: 0px;
+    /* height: 250px; */
+    width: 22vw;
+}
+
+.ninth-outline-text-stayConnected {
+  position: absolute;
+  width: 907px;
+  height: 153px;
+  left: calc(50% - 907px / 2 - 360px);
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+}
+
+.ninth-no-outline-text-stayConnected {
+  position: absolute;
+  width: 500px;
+  height: 153px;
+  left: calc(50% - 907px / 2 - 150px);
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.065em;
+  top: 16px;
+  white-space: nowrap;
+  color: white;
+}
+
+.ninth-no-outline-text-matchSchedule{
+  position: absolute;
+  width: 500px;
+  height: 153px;
+  left: calc(50% - 907px / 2 - 150px);
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.065em;
+  top: 85px;
+  white-space: nowrap;
+  color: white;
+  
+}
+
+.ninth-outline-text-matchSchedule{
+  position: absolute;
+  width: 907px;
+  height: 153px;
+  left: calc(50% - 907px / 2 - 360px);
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+  top: 80px;
+  white-space: nowrap;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+}
+
+
+.button {
+  /* position: absolute; */
+  /* width: 419px; */
+  height: 42px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+
+
+
+.image {
+  position: absolute;
+  width: 295.48px;
+  height: 295.48px;
+  left: calc(50% - 660px);
+  top: 210px; /* Adjust the value as needed to position the image below "THE" */
+  border-style: none;
+}
+
+.knife-image {
+  position: absolute;
+  width: 17vw;
+  /* height: 295.48px; */
+  left: 0;
+  top: 211px;
+  border-style: none;
+}
+.star-image {
+  position: absolute;
+  width: 17vw;
+  /* height: 295.48px; */
+  right: 0;
+  bottom: 75px;
+  border-style: none;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@media screen and (max-width: 1540px) and (min-width: 1301px) {
+  .seventh-container{
+    height: 100vh;
+  }
+  .image-container-StayConnected{
+    bottom: 135px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .seventh-container{
+    height: 110vh;
+  }
+  .eigth-container{
+    height: fit-content;
+    padding-bottom: 50px;
+  }
+  .image-container-StayConnected{
+    bottom: 145px;
+  }
+}

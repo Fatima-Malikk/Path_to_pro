@@ -1,0 +1,20 @@
+.matcheschedule-sidecontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 3vh auto 0 auto;
+    height: 15vh;
+    width: 65%;
+}
+
+@media screen and (max-width: 1540px){
+    .matcheschedule-sidecontainer {
+        margin-top: 10vh ;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .matcheschedule-sidecontainer {
+    height: 135px;
+    width: 85%;
+    }
+}

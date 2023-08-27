@@ -1,0 +1,19 @@
+.stayConnected-InnerWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    margin: 8.5vh 0px;
+    gap: 180px;
+}
+
+
+@media screen and (max-width: 1540px) and (min-width: 1301px) {
+    
+  }
+  @media screen and (max-width: 1300px) {
+   .stayConnected-InnerWrapper{
+    gap: unset;
+    justify-content: space-evenly;
+   }
+  }

@@ -1,0 +1,155 @@
+ .event-app-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+} 
+
+.upper-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.no-outline-text-event {
+  width: 100%;
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 6vw;
+  letter-spacing: 0.065em;
+  color: white;
+  position: absolute;
+  top: 0;
+  height: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.event-heading-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.event-topHeadingImage {
+  width: 100vw;
+  height: 100%;
+}
+.gradient-overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   background: linear-gradient(to top, #000b1ccf, rgba(255, 255, 255, 0));
+
+}
+
+.event-allEventContainer {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+  /* left: 2vw; */
+  bottom: 5vw;
+  background: url("/src/assets/TeamBackground1.webp");
+  z-index: 2;
+}
+
+
+.event-eachInnerEvent {
+  flex-basis: 33.333333%;
+  display: flex;
+  justify-content: center;
+}
+
+.body-container {
+  width: 100%;
+  height: 1774px;
+  top: 465px;
+  position: absolute;
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
+}
+.event-gradient-container {
+  width: 100%;
+    height: 350vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      to top,
+      #000b1ccf,
+      #000b1c,
+      #000b1c,
+      #000b1c
+    );
+    position: absolute;
+    top: 0; /* Position it below the app-container */
+    left: 0;
+  }
+  .event-middle-gradient-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #01010a11, #020213cb, #02021317);
+    position: absolute;
+    left: 0;
+  }
+
+.body-container .mini-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 300px;
+  padding: 20px;
+}
+
+.card-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.mini-card.blue-card {
+  position: relative;
+}
+
+.mini-card.image-card {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: 3;
+}
+
+.mini-card-text {
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.065em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.pagination-container {
+  margin-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}

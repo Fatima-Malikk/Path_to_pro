@@ -1,0 +1,35 @@
+.innerblog-imagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+
+.innerblog-innerImage{
+    position: relative;
+    bottom: 5vw;
+}
+
+.innerblog-contentContainer {
+    width: 65%;
+    margin: auto;
+}
+
+.innerblog-contentHeading {
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0.065em;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.innerblog-contentParagraph {
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+}

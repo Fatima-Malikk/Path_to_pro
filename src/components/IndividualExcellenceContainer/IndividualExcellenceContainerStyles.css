@@ -1,0 +1,24 @@
+.imageContainer-IndividualExcellence {
+    position: absolute;
+    top: 0;
+    right: 19vw;
+    overflow: overlay;
+}
+
+.image-IndividualExcellence {
+    width: 350px;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1540px) and (min-width: 1301px) {
+    .imageContainer-IndividualExcellence {
+        right: 150px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .imageContainer-IndividualExcellence {
+        right: 0;
+    }
+}

@@ -1,0 +1,121 @@
+.blog-app-container {
+  background-color: #000B1C;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.upper-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 50vh; */
+  /* background: linear-gradient(to bottom, rgba(0, 11, 28, 0.8), rgba(0, 11, 28, 0.8)),
+      url('../../assets/BlogsBg1.png');
+    background-size: cover;
+    background-position: center; */
+}
+
+.no-outline-text-blogs {
+  width: 100%;
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 6vw;
+  letter-spacing: 0.065em;
+  color: white;
+  position: absolute;
+  top: 0;
+  height: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-topHeadingImage {
+  width: 100vw;
+}
+
+.blog-allBlogsContainer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+  /* left: 2vw; */
+  bottom: 5vw;
+
+}
+
+.blog-eachInnerBlog {
+  flex-basis: 33.333333%;
+  display: flex;
+  justify-content: center;
+}
+
+.body-container {
+  width: 100%;
+  height: 1774px;
+  top: 465px;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(0, 11, 28, 0.8), rgba(0, 11, 28, 0.8)),
+    url('../../assets/BlogsBg2.png');
+  background-size: contain;
+  background-position: center;
+}
+
+.body-container .mini-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 300px;
+  padding: 20px;
+}
+
+.card-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.mini-card.blue-card {
+  position: relative;
+}
+
+.mini-card.image-card {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: 3;
+}
+
+.mini-card-text {
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.065em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.pagination-container {
+  margin-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}

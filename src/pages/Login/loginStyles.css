@@ -1,0 +1,11 @@
+.loginPage-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/src/assets/loginBG.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}

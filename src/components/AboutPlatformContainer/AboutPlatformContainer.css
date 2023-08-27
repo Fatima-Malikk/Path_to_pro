@@ -1,0 +1,95 @@
+.landing-about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("../../assets/MatchBackground.webp"),
+      linear-gradient(to bottom, #535363, #000000);
+    background-blend-mode: soft-light; /* Adjust the blending mode as per your preference */
+    background-size: cover;
+    background-position: center;
+    /* top: 230%; Position it below the app-container
+    left: 0; */
+    position: relative;
+    gap: 18vh;
+    overflow: hidden;
+  }
+  
+  .landing-about-container h5 {
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    margin: 18vh 0 0 0;
+  }
+  
+  .landing-about-container p {
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    line-height: 33px;
+    width: 50%;
+    font-size: 1.3vw;
+  }
+  
+  .landing-about-container .outline-text {
+    position: absolute;
+    width: 907px;
+    height: 153px;
+    left: -70px;
+    font-family: "Neo Robotix";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 7vw;
+    line-height: 100px;
+    text-align: center;
+    top: 150px;
+    white-space: nowrap;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  }
+  
+  .landing-about-container .no-outline-text {
+    position: absolute;
+    width: 100%;
+    height: 153px;
+    left: 0;
+    font-family: "Neo Robotix";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    top: 190px;
+    white-space: nowrap;
+    color: white;
+  }
+
+  .button-AboutPlatform{
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 1550px) {
+    .landing-about-container .no-outline-text{
+      top: 140px;
+    }
+    .landing-about-container .outline-text{
+      top:100px;
+    }
+    .landing-about-container{
+      height: 90vh;
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .landing-about-container .no-outline-text{
+      top: 115px;
+    }
+    .landing-about-container .outline-text{
+      top:80px;
+    }
+    .landing-about-container{
+      height: 110vh;
+    }
+  }

@@ -1,0 +1,268 @@
+.blogInner-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/LoginBG.svg");
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  left: 0px;
+  top: 0;
+
+}
+
+.blogInner-app-bar-container {
+  position: relative;
+  top: 0;
+  border: none;
+}
+
+.fullBG-container {
+  width: 100vw;
+  height: 430vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/TeamBackground1.webp"),
+    linear-gradient(to bottom, #03032402, #030324fb, #000000);
+  background-blend-mode: soft-light;
+  /* Adjust the blending mode as per your preference */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 80vh;
+  /* Position it below the app-container */
+  left: 0;
+}
+
+.blogInner-gradient-container {
+  width: 100%;
+  height: 300vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom,
+      #01010aab,
+      #020213cb,
+      #020213a4,
+      #0202135d,
+      #0202135d);
+  position: absolute;
+  top: 0;
+  /* Position it below the app-container */
+  left: 0;
+}
+
+.middle-gradient-container {
+  width: 100%;
+  height: 300vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #01010a11, #020213cb, #02021317);
+  position: absolute;
+  top: 0;
+  /* Position it below the app-container */
+  left: 0;
+}
+
+.main-text {
+  position: absolute;
+  width: 907px;
+  height: 153px;
+  left: calc(50% - 907px / 2 - 43.5px);
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 70px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.065em;
+  color: #ffffff;
+  top: 90px;
+  white-space: nowrap;
+}
+
+.rounded-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/LoginBG.svg");
+  position: absolute;
+  width: 80vw;
+  height: 55vh;
+  right: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 30px;
+  top: 55vh;
+}
+
+.heading-text {
+  position: absolute;
+  width: 907px;
+  height: 153px;
+  left: calc(50% - 907px / 2 - 90.5px);
+  font-family: "Neo Robotix";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 70px;
+  /* identical to box height */
+  text-align: left;
+  letter-spacing: 0.065em;
+  color: #ffffff;
+  top: 110vh;
+  white-space: nowrap;
+}
+
+.blogInner-text {
+  position: absolute;
+  width: 80vw;
+  height: 32px;
+  left: calc(50% - 907px / 2 - 90.5px);
+  top: 135vh;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.add-comment-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    position: relative;
+    /* width: 80vw; */
+    height: 55vh;
+    /* right: 130px; */
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+}
+
+.add-comment-container::before {
+  content: "";
+  display: block;
+  margin-top: 25vh;
+  width: 95%;
+  height: 1px;
+  background-color: lightgrey;
+}
+
+.input-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  background-color: tra;
+}
+
+
+
+.blogInner-button {
+  position: absolute;
+  width: 419px;
+  height: 42px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.add-comment-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(104, 104, 104);
+  width: 12vw;
+  height: 5vh;
+  color: white;
+  border-radius: 90px;
+  margin: 5vw 0 1vw 0;
+  /* position: absolute; */
+  /* font-weight: semibold; */
+}
+
+
+.similar-blogs-container {
+  width: 100%;
+  position: absolute;
+  top: 300vh;
+  /* Position it below the app-container */
+  left: 0;
+}
+
+
+.blogInner-footer-container {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/ConnectedBackground.webp");
+  background-blend-mode: soft-light;
+  /* Adjust the blending mode as per your preference */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 120vh;
+  /* Position it below the app-container */
+  left: 0;
+}
+
+.blogInner-button {
+  left: 42vw;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@font-face {
+  font-family: "Neo Robotix";
+  src: url("../../fonts/Neo-Robotix-Italic.ttf") format("truetype"),
+    url("../../fonts/Neo-Robotix-Italic.ttf") format("truetype");
+  /* Add additional formats if necessary */
+  /* Specify the correct paths to your font files */
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

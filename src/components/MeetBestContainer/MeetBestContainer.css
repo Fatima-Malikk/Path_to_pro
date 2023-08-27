@@ -1,0 +1,21 @@
+.meet-this-Week-pTag{
+    margin: 11vh 0 0 0;
+    font-size: 16px;
+    color: white;
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1540px) and (min-width: 1301px) {
+    .meet-this-Week-pTag{
+        margin: 14.5vh 0 0 0;
+    }
+}
+@media screen and (max-width: 1540px) {
+    .meet-this-Week-pTag{
+        margin: 18vh 0 0 0;
+        width: 95%;
+    }
+
+}

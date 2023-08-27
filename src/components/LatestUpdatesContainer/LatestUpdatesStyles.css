@@ -1,0 +1,149 @@
+.eigthContainer-sideText{
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    margin-top: 6vh;
+}
+
+.latest-updates-card-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.each-latestCard-outer {
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 10vh;
+}
+
+.each-latestCard-inner {
+    height: 15vw;
+    width: 18vw;
+    background-color: white;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 15%, 100% 100%, 10% 100%, 0% 85%);
+    background-color: #3583FE;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.each-latestCard-inner-1 {
+    flex: 3;
+    text-align: right;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.each-latestCard-inner-1 span {
+    display: inline-block;
+    transform: rotate(-90deg);
+    position: relative;
+    font-size: 1.3vw;
+    left: 25px;
+    opacity: 0.3;
+    letter-spacing: 1px;
+    top: 70px;
+    font-weight: 600;
+}
+
+.each-latestCard-inner-2 {
+    font-family: "Neo Robotix";
+    font-style: italic;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.each-latestCard-inner-2 span {
+    font-size: 1.3vw;
+    letter-spacing: 1px;
+    line-height: 29px;
+    width: 90%;
+}
+
+.latestCard-img {
+    clip-path: polygon(0% 0%, 90% 0%, 100% 15%, 100% 100%, 10% 100%, 0% 85%);
+    position: relative;
+    top: 175px;
+    right: 60px;
+    z-index: 1;
+    width: 17vw;
+    cursor: pointer;
+}
+
+.each-latestCard-bottomContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+    width: 18vw;
+    cursor: pointer;
+}
+
+.each-latestCard-bottomContainer-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.each-latestCard-bottomContainer-2 {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.each-latestCard-bottomContainer-2 span, .each-latestCard-bottomContainer-1 .each-latestCard-bottomContainer-1-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.each-latestCard-bottomContainer-1-span span{
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3583FE;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1540px) and (min-width: 1301px) {
+    .latestCard-img{
+        top: 145px;
+        right: 36px;
+    }
+    .eigthContainer-sideText{
+        margin-top: 9vh;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .each-latestCard-inner {
+        height: 18vw;
+        width: 21vw;
+    }
+    .latestCard-img {
+        top: 145px;
+        right: 18px;
+        width: 19vw;
+    }
+    .eigthContainer-sideText{
+        margin-top: 11vh;
+    }
+    .latest-updates-card-container{
+        width: 90%;
+    }
+    .each-latestCard-inner-1 span {
+        left:20px;
+    }
+} 
